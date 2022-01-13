@@ -1,8 +1,11 @@
 import express from "express";
-import { HomeIndex } from "../controllers/bookCon.js";
+import { CreateBook, FetchAllBooks, 
+    GetOneBook } from "../controllers/bookCon.js";
 
 export const bookRt = express.Router();
-    bookRt.get("/", HomeIndex);
+    bookRt.post("/", CreateBook);
+    bookRt.get("/", FetchAllBooks);
+    bookRt.get("/:id", GetOneBook);
 
 
 
