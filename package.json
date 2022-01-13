@@ -1,0 +1,34 @@
+{
+  "name": "book5",
+  "version": "1.0.0",
+  "description": "Initial setup of the project featuring:  Express and MongoDB.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigomx9/book5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigomx9/book5/issues"
+  },
+  "homepage": "https://github.com/indigomx9/book5#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
+
+
+
