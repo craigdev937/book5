@@ -4,6 +4,10 @@
   "description": "Initial setup of the project featuring:  Express and MongoDB.",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
