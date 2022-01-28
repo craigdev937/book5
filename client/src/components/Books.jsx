@@ -9,7 +9,7 @@ export const Books = () => {
     return (
         <React.Fragment>
             <button>
-                <Link to="/books/add">New Book</Link>
+                <Link to="/books/add">Create Book</Link>
             </button>
             {data?.map((book) => (
                 <Info key={book._id} book={book} />

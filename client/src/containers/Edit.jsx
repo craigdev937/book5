@@ -100,13 +100,12 @@ export const Edit = () => {
                 </aside>
                 <aside>
                     <label htmlFor="info">Info</label>
-                    <input 
-                        type="text" 
-                        name="info"
-                        placeholder="Info"
+                    <textarea 
+                        name="info" 
+                        type="text"
                         value={book.info}
-                        onChange={handleChange}
-                    />
+                        onChange={handleChange}>
+                    </textarea>
                 </aside>
                 <footer>
                     <button><Link to="/">Cancel</Link></button>

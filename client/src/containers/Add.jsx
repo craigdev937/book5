@@ -29,7 +29,7 @@ export const Add = () => {
 
     return (
         <React.Fragment>
-            <h1>Create a new Book</h1>
+            <h1>Create Book</h1>
             <form onSubmit={handleSubmit}>
                 <aside>
                     <label htmlFor="title">Title</label>
@@ -73,13 +73,12 @@ export const Add = () => {
                 </aside>
                 <aside>
                     <label htmlFor="info">Info</label>
-                    <input 
-                        type="text" 
-                        name="info"
-                        placeholder="Info"
+                    <textarea 
+                        name="info" 
+                        type="text"
                         value={book.info}
-                        onChange={handleChange}
-                    />
+                        onChange={handleChange}>
+                    </textarea>
                 </aside>
                 <footer>
                     <button><Link to="/">Cancel</Link></button>

@@ -10,7 +10,7 @@ export const Info = ({ book }) => {
                     >{book.title}
                 </Link>
             </h2>
-            <main key={book._id}>
+            <main key={book._id} className="container">
                 <p>{book.first} {book.last}</p>
                 <p>Age: {book.age}</p>
                 <p>Info: {book.info}</p>
